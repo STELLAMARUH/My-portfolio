@@ -63,23 +63,6 @@ margin: 0 auto;
 .about{
   background-color: #2B2B2B;
 }
-.icons {
-  text-align:center;
-
-  }
-.icons i{
-  font-size: 25px;
-
-  }
-.icons ul li{
-  display: inline;
-  list-style: none;
-  padding-right: 30px;
-}
-
-.icons ul li a{
-  color: white;
-}
 
 .container{
 height: 180px;
@@ -115,3 +98,15 @@ color:white;
   padding-top:top:100px;
   padding-bottom:90px;
   font-size:20px;
+}
+.main-container{
+  font-family:'opensans-regular',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+   background-color:rgb(0,0,0,0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
