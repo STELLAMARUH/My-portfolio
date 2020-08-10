@@ -1,24 +1,68 @@
 html{
    scroll-behavior: smooth;
- 
+       
 }
+
 body {
-    line-height: 30px;
+   background:
+ background-size: cover;
    padding: 0px;
    margin:0px;
-    background: url(https://bleuwire.com/wp-content/uploads/2019/03/laptop-accessories.jpg) no-repeat;
-    background-size: cover;
-
+   text-decoration: none;
+   border-bottom: none;
 }
+
 .main-container{
-  font-family:'opensans-regular',sans-serif;
+  font-family:'',sans-serif;
   min-height: 490px;
   text-align: center;
   color:white;
   padding-top: 200px;
-  //background-color:powderblue;
+  background: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3759099%2Fpexels-photo-3759099.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D650%26w%3D940);
+
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cont{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  background: url(https://cdn2.vectorstock.com/i/1000x1000/03/86/blue-background-with-stars-vector-4790386.jpg);
+  background-color:#c7584e;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.conte{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  background: url(716B6A);
+  background-color:#c7584e;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
 }
 
 .top-part hr{
@@ -35,16 +79,18 @@ body {
   list-style-type: none;
   margin: 40px;
 }
+
 .nav a:hover{
-  color:cyan;
-  background:black;
-  filter: brightness(65%);
-  text-shadow: -1px -1px -1px white;
-}
+    color:gray;
+    background: #02b8dd;
+    filter:brightness(50%);
+    text-shadow: -1px -1px -1px darkgray;
+  }
+
 
 .nav ul li{
   display: inline-block;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'opensans-regular',sans-serif;
 }
 
 .nav ul li a{
@@ -54,27 +100,24 @@ body {
   text-decoration: none;
 }
 
-
 .content{
  padding-top: 100px;
 padding-bottom: 100px;
-color: #7A7A7A;
+color: #7A7A7A;;
 text-align: center;
 font-size: 20px;
 width: 60%;
 margin: 0 auto;
+
 }
-.about a:hover{
+.about{
   background-color: #2B2B2B;
-  filter: brightness(65%);
-  text-shadow:  -1px -1px -1px white;
-
 }
 
 
-.container .a hover{
+.container{
 height: 180px;
-background: #333;
+background: #838C95;
  padding-top: 100px;
 padding-bottom: 300px;
 font-size: 30px;
@@ -88,7 +131,7 @@ h5{
 
 .footer{
 text-align: center;
-background-color:#333;
+background-color:rgb(0,0,0,0.8);
 padding-top: 100px;
 padding-bottom: 90px;
 font-size: 20px;
@@ -100,16 +143,42 @@ color:white;
     font-size:20px;
    
 }
-.p1{
+.p{
   text-align: center;
-  background-color:#333;
+  background-color:rgb(0,0,0,0,8);
   padding-top:top:100px;
   padding-bottom:90px;
   font-size:20px;
-
 }
+.button {
 
-
-
-         
+  padding: 8px 15px;
+  font-size: 14px;
+  min-width: 160px;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: black;
+    border-radius: 3px;
+    color: #fff;
+    width: 180
+px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #02b8dd;
+    color: darkblue;
+}
 
