@@ -23,6 +23,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+div:hover {
+  width: 500px;
+  height: 500px;
+   transition: width 3s;
+  transition-delay: 1s;
+   background: black;
+}
 
 .cont{
   font-family:'',sans-serif;
@@ -30,7 +37,7 @@ body {
   text-align: center;
   color:white;
   padding-top: 200px;
-  background: url(https://cdn2.vectorstock.com/i/1000x1000/03/86/blue-background-with-stars-vector-4790386.jpg);
+  background: url(https://images.pexels.com/photos/3773407/pexels-photo-3773407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-color:#c7584e;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,7 +89,7 @@ progress::-moz-progress-bar {
 
 .nav a:hover{
     color:gray;
-    background: #02b8dd;
+    background: black;
     filter:brightness(50%);
     text-shadow: -1px -1px -1px darkgray;
   }
